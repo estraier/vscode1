@@ -14,6 +14,6 @@ function isPrime(num) {
 
 for (let i = 1; i <= 2000; i++) {
     if (isPrime(i)) {
-        console.log(i);
+        console.log(i + " is prime");
     }
 }
