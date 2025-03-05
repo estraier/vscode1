@@ -12,7 +12,7 @@ function isPrime(num) {
     return true;
 }
 
-for (let i = 1; i <= 1000; i++) {
+for (let i = 1; i <= 2000; i++) {
     if (isPrime(i)) {
         console.log(i);
     }
